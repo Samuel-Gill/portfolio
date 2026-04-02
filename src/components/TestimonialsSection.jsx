@@ -1,38 +1,38 @@
+import SectionReveal from './SectionReveal';
+import Testimonial from './Testimonial';
+
 const testimonials = [
   {
     quote:
-      'Working with him improved our online sales by 40% in just 3 months. The structure he brought to our listings and ads made a measurable difference.',
-    name: 'Sarah Lin',
-    role: 'Ecommerce Operations Manager',
+      'Their automation solution saved us countless hours every week, and our support response times improved immediately.',
+    name: 'Monica Rivera',
+    role: 'Operations Lead, BrightCart',
   },
   {
     quote:
-      'Our team finally has one platform for reporting, inventory tracking, and campaign monitoring. Delivery was fast, and the system is easy to manage.',
-    name: 'Daniel Brooks',
-    role: 'Founder, Retail Growth Studio',
+      'Our online store performance improved significantly after working with their team. We now have a clear process for listings, ads, and reporting.',
+    name: 'Liam Foster',
+    role: 'Director, Apex Commerce Co.',
   },
   {
     quote:
-      'The automation workflows reduced repetitive manual tasks by hours each week and improved customer response time significantly.',
-    name: 'Nina Patel',
-    role: 'Head of Digital, Nova Supplies',
+      'They translated our ideas into a polished platform our sales and marketing teams rely on daily. Execution was structured and reliable.',
+    name: 'Priya Nair',
+    role: 'COO, Northline Distribution',
   },
 ];
 
 export default function TestimonialsSection() {
   return (
-    <section id="testimonials" className="px-4 py-16 sm:px-6 lg:px-8">
+    <section id="testimonials" className="px-4 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <h2 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
-          Client feedback
-        </h2>
+        <SectionReveal>
+          <h2 className="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Trusted by growing teams</h2>
+        </SectionReveal>
+
         <div className="mt-8 grid gap-6 lg:grid-cols-3">
-          {testimonials.map((testimonial) => (
-            <article key={testimonial.name} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-              <p className="text-sm leading-6 text-slate-700">“{testimonial.quote}”</p>
-              <p className="mt-6 text-sm font-semibold text-slate-900">{testimonial.name}</p>
-              <p className="text-xs text-slate-500">{testimonial.role}</p>
-            </article>
+          {testimonials.map((testimonial, index) => (
+            <Testimonial key={testimonial.name} testimonial={testimonial} delay={index * 0.08} />
           ))}
         </div>
       </div>

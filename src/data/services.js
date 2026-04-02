@@ -20,7 +20,7 @@ export const services = [
       'Performance monitoring with practical growth recommendations',
     ],
     paragraph:
-      'I help brands build reliable marketplace operations that scale. From storefront configuration to listing quality and operational consistency, every step is focused on predictable growth and stronger customer experience.',
+      'We help brands build reliable marketplace operations that scale. From storefront configuration to listing quality and operational consistency, every step is focused on predictable growth and stronger customer experience.',
   },
   {
     slug: 'development',
@@ -36,7 +36,7 @@ export const services = [
       'Tailored technical solutions based on unique workflows and constraints',
     ],
     paragraph:
-      'I build modern, production-ready digital products with a focus on speed, clean architecture, and long-term scalability. The result is software that supports growth rather than creating bottlenecks.',
+      'We build modern, production-ready digital products with a focus on speed, clean architecture, and long-term scalability. The result is software that supports growth rather than creating bottlenecks.',
   },
   {
     slug: 'marketing-seo',
@@ -66,7 +66,7 @@ export const services = [
       'Consistent design systems for cross-platform content delivery',
     ],
     paragraph:
-      'Strong visuals create trust before a customer reads a single sentence. I design assets that are clean, conversion-focused, and consistent with your positioning across every platform.',
+      'Strong visuals create trust before a customer reads a single sentence. We design assets that are clean, conversion-focused, and consistent with your positioning across every platform.',
   },
   {
     slug: 'ai-automation',
@@ -82,6 +82,6 @@ export const services = [
       'Custom automation strategies tied to measurable outcomes',
     ],
     paragraph:
-      'I design automation systems that fit your operations, not generic templates. Each implementation is built to save time, reduce cost, and increase team capacity for higher-value work.',
+      'We design automation systems that fit your operations, not generic templates. Each implementation is built to save time, reduce cost, and increase team capacity for higher-value work.',
   },
 ];
