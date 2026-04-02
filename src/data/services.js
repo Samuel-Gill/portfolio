@@ -51,7 +51,7 @@ export const services = [
       'Content strategy focused on audience quality and retention',
     ],
     paragraph:
-      'Our approach combines channel strategy with execution discipline. By aligning content, SEO, and paid campaigns, we help businesses generate qualified traffic and convert attention into sales.',
+      'My approach combines channel strategy with execution discipline. By aligning content, SEO, and paid campaigns, I help businesses generate qualified traffic and convert attention into sales.',
   },
   {
     slug: 'creative-design',
